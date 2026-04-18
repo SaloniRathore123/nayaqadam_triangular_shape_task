@@ -13,7 +13,7 @@ echo "----------------------------------";
 echo "<h2>Inverted Minus Sign Triangle</h2>";
 for($a = $traingle_row; $a >= 1; $a--){
     for($b = 1; $b <= $a; $b++){
-        echo "-";
+        echo "*";
     }
     echo "<br>";
 }
